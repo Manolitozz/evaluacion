@@ -117,4 +117,17 @@ body {
     outline: none;
     box-shadow: none;
   }
+.scrollspy-wrapper {
+    position: relative;
+    height: 600px;
+    overflow-y: scroll;
+    overflow-x: hidden; 
+}
+
+.scrollspy-wrapper h4,
+.scrollspy-wrapper p {
+    word-wrap: break-word;   
+    overflow-wrap: break-word;
+}
+
 
