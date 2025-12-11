@@ -1,0 +1,120 @@
+.titulo-elegante {
+    font-family: "Georgia", "Times New Roman", serif; 
+    font-size: 3rem;
+    font-weight: 550;
+    text-align: center;
+    padding-top:30px ;
+}
+.descp{
+    font-size: 2rem;
+    font-weight: 70;
+    text-align: center;
+}
+
+html, body {
+  height: 100%;        
+  margin: 0;           
+}
+
+body {
+  display: flex;
+  flex-direction: column; 
+  min-height: 100vh;       
+}
+
+.footer {
+  margin-top: auto;    
+}
+.columna{
+    margin-bottom: 60px;
+}
+
+.iconos a svg {
+  fill: white;  
+}
+
+.list-group-item-action.active {
+  background-color: black !important;
+  color: white !important;
+  border-color: black !important;
+}
+
+.titulo-posho {
+    font-family: "Georgia", "Times New Roman", serif; 
+    font-size: 40px;
+    font-weight: 550;
+    padding-top:30px ;
+    border-top: 1px solid whitesmoke;
+    margin-top: 25px;
+}
+
+.accordion{
+    margin-bottom: 60px;
+}
+
+.titulo-poho {
+    font-family: "Georgia", "Times New Roman", serif; 
+    font-size: 35px;
+    font-weight: 550;
+    padding-top:30px ;
+    margin-top: 25px;
+}
+
+.ventita {
+    display: flex;
+    gap: 10px; 
+}
+
+.ventita .card {
+    display: flex;
+    flex-direction: column;
+    width: 23%; 
+}
+
+.ventita .card-body {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1; 
+}
+
+.ventita .card-body .btn {
+    margin-top: auto; 
+}
+.ventita .card-body .d-flex .btn {
+    flex: 1; 
+    text-align: center; 
+}
+
+.ventita .card-body .d-flex {
+    gap: 10px;
+    flex-wrap: nowrap; 
+}
+
+.ventita .card-body .d-flex .btn {
+    flex: 1; 
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+}
+
+.paquito{
+    margin-top: 50px;
+}
+.pio{
+    margin-top: 40px;
+}
+
+
+  .iconos a {
+    outline: none;
+    border: none;
+    text-decoration: none;
+  }
+
+  .iconos a:focus,
+  .iconos a:active {
+    outline: none;
+    box-shadow: none;
+  }
+
